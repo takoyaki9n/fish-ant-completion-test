@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<project name="another" default="compile" basedir=".">
+    <import file="../fish-ant-completion-test/yet-another.xml"/>
+
+    <target name="from-another-buildfile"/>
+</project>

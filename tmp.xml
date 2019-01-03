@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<project name="tmp" default="compile" basedir=".">
+    <target name="from-buildfile-under-tmp"/>
+</project>

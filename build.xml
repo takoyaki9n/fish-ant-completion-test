@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<project name="ant-test" default="compile" basedir=".">
+    <!-- simple import -->
+    <import file="another.xml"/>
+
+    <!-- import by full path -->
+    <import file="/tmp/tmp.xml"/>
+
+    <!-- import using property (ignore) -->
+    <property name="prop" value="/tmp"/>
+    <import file="${prop}/tmp-another.xml"/>
+
+    <target name="simple-target"/>
+
+    <target name="with-conamentent">
+        <echo message="This is a target> with an echo task."/>
+    </target>
+
+    <target name="with-description" description="A target with description"/>
+
+    <target
+        name="with-newline-in-start-tag"/>
+
+    <target name='single-quote'/>
+
+    <target name="has>gt"/>
+
+    <target name="has'single'quote"/>
+
+    <target name='has"double"quote'/>
+</project>
