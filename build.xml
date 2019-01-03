@@ -12,7 +12,7 @@
 
     <target name="simple-target"/>
 
-    <target name="with-conamentent">
+    <target name="with-content">
         <echo message="This is a target> with an echo task."/>
     </target>
 

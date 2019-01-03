@@ -10,7 +10,8 @@ Start fish-shell and confirm that following targets are shown.
 ```
 $ fish
 $ ant [Tab]
-from-another-buildfile      has\"double\"quote  simple-target     with-description  (A target with description)
-from-buildfile-under-tmp    has\'single\'quote  single-quote      with-newline-in-start-tag
-from-yet-another-buildfile  has\>gt             with-conamentent
+$ ant has\>gt                                                                 from-another-buildfile      has\'single\'quote  with-content
+from-buildfile-under-tmp    has\>gt             with-description  (A target with description)
+from-yet-another-buildfile  simple-target       with-newline-in-start-tag
+has\"double\"quote          single-quote
 ```
